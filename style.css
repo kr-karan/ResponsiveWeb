@@ -1,0 +1,52 @@
+.row,.copyright{
+    background-color:rgb(22, 22, 65);
+    color: white;
+}
+hr{
+    color:rgb(38, 121, 69);
+    width: 100%;
+}
+.column{
+    float: left;
+    width:20%;
+    flex-wrap: wrap;
+    display:flex'
+}
+.div2 ,.div3, .div4, .div5{
+    margin-left: 20px;
+    margin-top: 100px;
+    height: inherit;
+        
+}
+.row{
+    display: flex;  
+    flex-wrap: wrap;    
+}
+.main{
+    height: 5rem;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+@media screen and (max-width: 480px) {
+    .row{   
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .column{
+        width: 100%;
+        
+    }
+    .div2 ,.div3, .div4, .div5{
+    margin-left: 0px;
+    margin-top: 0px;
+    height: inherit;
+        
+}
+    
+}
